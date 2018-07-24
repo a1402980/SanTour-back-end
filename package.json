@@ -1,0 +1,27 @@
+{
+  "name": "snukrstatisticsapi",
+  "version": "1.0.0",
+  "description": "This API is for Snukr statistics",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Ibrahim Beqiri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "get-json": "^1.0.0",
+    "mongodb": "^3.0.5",
+    "node-datetime": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
